@@ -46,7 +46,7 @@ Do not: patch integer packing/reading as a side quest.
 
 ### Remaining `core` byte budget is manual — status: idea
 
-Why it matters: only 24 bytes are free as of spec v2.003, and no script enforces the budget.
+Why it matters: the free `core` byte budget is small and no script enforces it.
 Meanwhile, agents should: recompute gaps with [`spec-data-model.md`](spec-data-model.md)'s command before proposing `core` fields.
 Do not: choose field offsets by inspection only.
 

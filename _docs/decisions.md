@@ -32,24 +32,6 @@ Decision: add one root `README.md` line pointing contributors/agents to `AGENTS.
 Why: humans browsing the repo need a visible entry point.
 Revisit when: a future `CONTRIBUTING.md` becomes the better entry point.
 
-## One PR with separable commits
-
-Decision: land the reflow as one PR split into independently reviewable commits.
-Why: two PRs would ship temporary duplication first; separable commits still let the maintainer drop pieces.
-Revisit when: review requests a narrower PR.
-
-## Agent docs describe the repo, not one machine
-
-Decision: do not add Windows-local dev-server notes to root agent rules.
-Why: they would document one contributor environment and go stale.
-Revisit when: the maintainer wants a supported Windows/WSL development guide.
-
-## No guessed house-style section yet
-
-Decision: do not invent PR or house-style conventions before maintainer review teaches them.
-Why: process details are currently undocumented and should not be guessed from history.
-Revisit when: this PR review reveals stable conventions.
-
 ## One home per fact
 
 Decision: each operational fact should have one owning doc; other docs link to it.

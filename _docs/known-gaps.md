@@ -29,13 +29,13 @@ Do not: infer policy from commit history alone.
 ### No automated protocol tests — status: idea
 
 Why it matters: `opentag3d.js` handles byte encoding/decoding, NDEF/NTAG packing, import/export formats, and Web NFC with no test suite.
-Meanwhile, agents should: use the manual/Node round-trip guidance in `assets/scripts/AGENTS.md` once added and include verification evidence.
+Meanwhile, agents should: use the manual/Node round-trip guidance in `assets/scripts/AGENTS.md` and include verification evidence.
 Do not: refactor protocol code opportunistically.
 
 ### No schema or byte-range validation for `_data/spec.json` — status: idea
 
 Why it matters: bogus types, overlaps, out-of-range fields, and missing legacy snapshots can pass build/format checks.
-Meanwhile, agents should: use [`spec-data-model.md`](spec-data-model.md)'s byte-map command and `_data/AGENTS.md` once added.
+Meanwhile, agents should: use [`spec-data-model.md`](spec-data-model.md)'s byte-map command and `_data/AGENTS.md`.
 Do not: treat a passing Jekyll build as proof a spec edit is safe.
 
 ### Suspected 6-byte `barcode` integer round-trip issue — status: needs maintainer confirmation

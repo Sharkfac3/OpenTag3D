@@ -30,7 +30,7 @@ exclude:
   - AGENTS.md
   - CLAUDE.md
   - assets/scripts/AGENTS.md
-  - OpenTag3D-agent-scaffolding/
+  - _data/AGENTS.md
 
 defaults:
   - scope:

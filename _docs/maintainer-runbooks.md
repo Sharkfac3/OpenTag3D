@@ -7,7 +7,7 @@ This doc owns trusted maintainer workflows. Use it only when acting as the maint
 Review by blast radius first, file diff second:
 
 1. Classify the change: routine content, tool UI, protocol code, spec data, release/process, governance, or automation.
-2. Check the co-change map in root `AGENTS.md` once added.
+2. Check the co-change map in root `AGENTS.md`.
 3. For `_data/spec.json`, classify the edit before reviewing details: wording, `web_api`, additive `core`, breaking `core`, or version bump.
 4. For protocol-code changes, require round-trip evidence and browser/manual evidence appropriate to the path touched.
 5. For Web NFC write/config-page changes, require maintainer intent and real-device evidence or an explicit "not locally verified" note.
@@ -21,7 +21,7 @@ Prefer shrinking future review burden: when a prose checklist becomes mechanical
 Treat protocol bugs as suspected until reproduced and confirmed.
 
 1. Identify the area: display-only UI, field encode/decode, NDEF/NTAG packing, Web NFC write, config pages, import/export, or legacy-spec handling.
-2. Build the smallest reproduction. Use the Node recipe in `assets/scripts/AGENTS.md` once added when the path does not require DOM or Web NFC.
+2. Build the smallest reproduction. Use the Node recipe in `assets/scripts/AGENTS.md` when the path does not require DOM or Web NFC.
 3. Compare behavior against `_data/spec.json`, `spec.md`, and relevant `assets/json/spec_v*.json` legacy snapshots.
 4. Separate "new writes would be wrong" from "already-written tags may be affected".
 5. Present bytes, decoded values, expected behavior, and uncertainty; ask the maintainer to confirm before patching.

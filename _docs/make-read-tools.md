@@ -1,6 +1,6 @@
 # Make/read tools architecture
 
-This doc owns architecture context for `make.html`, `read.html`, and their page-local JavaScript. Protocol-code danger zones and the Node round-trip recipe live in `assets/scripts/AGENTS.md` once added.
+This doc owns architecture context for `make.html`, `read.html`, and their page-local JavaScript. Protocol-code danger zones and the Node round-trip recipe live in `assets/scripts/AGENTS.md`.
 
 ## Boot sequence and spec injection
 
@@ -71,7 +71,7 @@ Slow down or ask first around:
 ## Verification expectations
 
 - UI-only change: Jekyll build, browser-load affected page, check console, and exercise affected controls.
-- Encode/decode or import/export change: use the Node round-trip recipe from `assets/scripts/AGENTS.md` once added, plus browser verification through `/make` and `/read`.
+- Encode/decode or import/export change: use the Node round-trip recipe from `assets/scripts/AGENTS.md`, plus browser verification through `/make` and `/read`.
 - Web NFC write/config-page change: ask first; verify on a supported Chrome/Android/Web NFC setup with a disposable tag, or state clearly that real NFC was not locally verified.
 - Legacy decode change: include the old major-version snapshot and sample payload used for verification.
 

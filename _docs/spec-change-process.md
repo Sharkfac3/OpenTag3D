@@ -18,7 +18,7 @@ Before editing `_data/spec.json`, classify the change:
 - Move, resize, remove, or reinterpret a `core` field: breaking/major proposal; legacy snapshot requirement applies.
 - Version bump: maintainer-only unless explicitly delegated.
 
-Detailed data-model checks live in [`spec-data-model.md`](spec-data-model.md) and `_data/AGENTS.md` once added.
+Detailed data-model checks live in [`spec-data-model.md`](spec-data-model.md) and `_data/AGENTS.md`.
 
 ## PR and CI gates
 

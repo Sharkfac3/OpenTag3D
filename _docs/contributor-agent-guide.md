@@ -1,6 +1,6 @@
 # Contributor and agent guide
 
-This guide is for outside contributors and their AI agents. It owns the safety posture for non-maintainer work; detailed protocol checklists live in `_data/AGENTS.md` and `assets/scripts/AGENTS.md` once those files are added.
+This guide is for outside contributors and their AI agents. It owns the safety posture for non-maintainer work; detailed protocol checklists live in `_data/AGENTS.md` and `assets/scripts/AGENTS.md`.
 
 ## Safety model
 
@@ -38,12 +38,7 @@ Open a proposal or stop for maintainer direction before:
 
 ## Co-change reminders
 
-Use the co-change map in root `AGENTS.md` once added. Until then, key pairs are:
-
-- `_data/spec.json` changes need a `spec.md` changelog entry.
-- Major spec bumps need a frozen legacy snapshot before the current layout changes.
-- Supporter status/details may appear in both `_data/supporters.yml` and `getting-started.md`.
-- New articles are not auto-listed; link them intentionally from somewhere.
+Use the co-change map in root `AGENTS.md`; it is the single source for which files must change together.
 
 ## Known gaps are not a work queue
 

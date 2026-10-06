@@ -1,6 +1,6 @@
 # Spec data model
 
-This doc owns reference facts about `_data/spec.json`: field structure, type handling, byte budget, and the command for recomputing the current byte map. Edit rules live in `_data/AGENTS.md` once added.
+This doc owns reference facts about `_data/spec.json`: field structure, type handling, byte budget, and the command for recomputing the current byte map. Edit rules live in `_data/AGENTS.md`.
 
 ## Source of truth
 
